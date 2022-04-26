@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Salon beauty Website </title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+
+<header class="header">
+
+   <section class="flex">
+
+      <a href="#home" class="logo"><img src="images/logo.png" alt=""></a>
+
+      <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#services">services</a>
+         <a href="#book">book</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </section>
+
+</header>
+
+
+
+<div class="home-bg">
+
+   <section class="home" id="home">
+
+      <div class="content">
+         <h3>Salon beauty</h3>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut officia, accusantium mollitia laudantium dolorum dolore.</p>
+         <a href="#about" class="btn">Let's go</a>
+      </div>
+
+   </section>
+
+</div>
+
+
+
+<section class="about" id="about">
+
+   <div class="image">
+      <img src="images/about-img.svg" alt="">
+   </div>
+
+   <div class="content">
+      <h3>You can take a break to care about your self</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit sunt repellendus, dolorum recusandae placeat quae. Iste eaque aspernatur, animi deleniti voluptas, sunt molestias eveniet sint consectetur facere a ex.</p>
+      <a href="#services" class="btn">our services</a>
+   </div>
+
+</section>
+
+
+
+
+
+
+<section class="services" id="services">
+
+   <div class="heading">
+      <h3>Our services</h3>
+   </div>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/menu-1.png" alt="">
+         <h3>makeup</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/menu-2.png" alt="">
+         <h3>hairstyle</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/menu-3.png" alt="">
+         <h3>nailscare</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/menu-4.jpg" alt="">
+         <h3>skincare</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/menu-5.jpg" alt="">
+         <h3>spa</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/menu-6.png" alt="">
+         <h3>eyelashes</h3>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+<section class="book" id="book">
+
+   <div class="heading">
+      <h3>booking</h3>
+   </div>
+
+   <div class="row">
+
+      <div class="image">
+         <img src="images/book-img.svg" alt="">
+      </div>
+
+      <form action="" method="post">
+         <h3>book an appointment</h3>
+         <input type="text" name="name" required class="box" maxlength="20" placeholder="enter your name">
+         <input type="number" name="number" required class="box" maxlength="20" placeholder="enter your number" min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+         <input type="date" name="guests" required class="box" maxlength="20"min="0" max="99">
+         <input type="time" name="guests" required class="box" maxlength="20" >
+
+         <input type="submit" name="send" value="booking" class="btn">
+      </form>
+
+   </div>
+
+</section>
+
+
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <i class="fas fa-envelope"></i>
+         <h3>our email</h3>
+         <p>m_mona@gmail.com</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-clock"></i>
+         <h3>opening hours</h3>
+         <p>010:00am to 08:00pm</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>salon location</h3>
+         <p>riyadh, saudi ariba </p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-phone"></i>
+         <h3>our number</h3>
+         <p>+966-456-7890</p>
+      </div>
+
+   </div>
+
+   <div class="credit"> </div>
+
+</section>
+
+
+
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
